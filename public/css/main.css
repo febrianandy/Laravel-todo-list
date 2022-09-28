@@ -1,0 +1,159 @@
+@import './global.css';
+
+html{
+	font-size: 14px;
+}
+
+body{
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.88rem;
+	user-select: none;
+	overflow-x: hidden;
+	background-color: var(--color-background);
+	color: var(--color-dark);
+}
+
+h1{
+	font-weight: 800;
+	font-size: 1.8rem;
+}
+h2{
+	font-size: 1.4rem;
+}
+h3{
+	font-size: 0.87rem;
+}
+h4{
+	font-size: 0.8rem;
+}
+h5{
+	font-size: 0.77rem;
+}
+
+a{
+  color: var(--color-primary);
+}
+.container{
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+header{
+  width: 100%;
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+header h1{
+  font-size:3.3rem;
+  font-weight: 900;
+}
+header p{
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+main .todo-list{
+  margin-top: 2rem;
+}
+
+main .todo-list ul .todo-item{
+  background-color: #fff;
+  box-shadow: 0 2px 3px rgba(132,139,200,0.18);
+  padding: 1.3rem 1.5rem;
+  margin: 0.9rem 0;
+  border-radius: var(--boder-radius-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-detail{
+  background-color: var(--color-success);
+  color: var(--color-white);
+  padding: 0.4rem 0.4rem;
+  border-radius: var(--boder-radius-2);
+
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-delete{
+  background-color: var(--color-danger);
+  color: var(--color-white);
+  padding: 0.4rem 0.4rem;
+  border-radius: var(--boder-radius-2);
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn span{
+  font-size: 1.5rem;
+}
+
+.tambah-todolist{
+  margin-bottom: 1.5rem;
+	max-width: 100%;
+}
+.tambah-todolist button{
+  background-color: var(--color-success);
+  color: var(--color-white);
+  padding: 0.8rem 0.8rem;
+  border-radius: var(--boder-radius-1);
+  cursor: pointer;
+}
+.tambah-todolist input{
+	width: 20rem;
+  padding: 0.8rem 0.8rem;
+  border-radius: var(--boder-radius-1);
+  border: 1px solid var(--color-info-light);
+  margin-right: 0.5rem;
+
+}
+
+footer p{
+	text-align: center;
+	margin-top: 2.8rem;
+	font-size: 0.8rem;
+  padding: 2rem;
+}
+
+.log-out{
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+}
+.log-out button{
+  background-color: var(--color-danger);
+  color: var(--color-white);
+  padding: 0.8rem 0.8rem;
+  border-radius: var(--boder-radius-2);
+  cursor: pointer;
+  
+}
+
+.todo-items h1{
+  color: var(--color-dark);
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.alert-success{
+ background-color: #d0fff8;
+  border: 2px solid var(--color-success);
+  color: var(--color-dark);
+  padding: 0.8rem 0.8rem;
+  border-radius: var(--boder-radius-1);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.alert-danger{
+    background-color: #ffcaca;
+   border: 2px solid var(--color-danger);
+   color: var(--color-dark);
+   padding: 0.8rem 0.8rem;
+   border-radius: var(--boder-radius-1);
+   margin-bottom: 1rem;
+   text-align: center;
+ }

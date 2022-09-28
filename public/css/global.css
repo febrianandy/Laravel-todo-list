@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+:root {
+	--color-danger: #F03A5F;
+	--color-success: #00D1B2;
+	--color-primary: #7380ec;
+	--color-warning: #FFDC7D;
+	--color-background:#f6f6f9;
+	--color-dark:#363949;
+	--color-light:rgba(132,139,200,0.18);
+	--color-white:#fff;
+	--color-info-dark:#7d8da1;
+	--color-info-light:#dce1eb;
+	--color-primary-variant:#111e88;
+	--color-dark-variant:#677483;
+
+	--card-border-radius:2rem;
+	--border-radius-1:0.4rem;
+	--boder-radius-2:0.8rem;
+	--boder-radius-3:1.2rem;
+
+	--card-padding:1.8rem;
+	--padding-1:1.2rem;
+
+	--box-shadow:0 2rem 3rem rgba(132,139,200,0.18);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	appearance: none;
+	border: none;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
